@@ -1,0 +1,19 @@
+{
+    "intents":[
+        {
+            "tag": "greeting",
+            "patterns": ["Hi there", "How are you", "Is anyone there?", "Hey", "Hola", "Hello", "Good day"],
+            "responses": ["Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?"]
+        },
+        {
+            "tag": "suplearn",
+            "patterns": ["what is supervised learning", "supervised learning", "define supervised learning"],
+            "responses": ["supervised learning is a learning in which we teach the machine using data which is already labelled"]
+        },
+        {
+            "tag": "Example_classification",
+            "patterns": ["give an example of classification", "example of classification"],
+            "responses": ["Gmail classifies mail in more than one classes like social, promotion, updates, forum"]
+        }
+    ]
+}
